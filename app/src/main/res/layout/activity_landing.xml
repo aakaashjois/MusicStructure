@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="@string/landing_description"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/spotify_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_weight="1"
+        android:text="@string/spotify_button" />
+
+    <Button
+        android:id="@+id/soundcloud_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_weight="1"
+        android:text="@string/soundcloud_button" />
+
+    <Button
+        android:id="@+id/shazam_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_weight="1"
+        android:text="@string/shazam_button" />
+
+</LinearLayout>

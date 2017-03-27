@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Music Structure</string>
+
+    <string name="landing_name">Streamer</string>
+    <string name="spotify_name">Spotify</string>
+    <string name="soundcloud_name">SoundCloud</string>
+    <string name="shazam_name">Shazam</string>
+
+    <string name="spotify_button">Spotify</string>
+    <string name="soundcloud_button">SoundCloud</string>
+    <string name="shazam_button">Shazam</string>
+
+    <string name="login_button">Login</string>
+    <string name="play_pause_button">Play/Pause</string>
+    <string name="next_song_button">Next Song</string>
+
+    <string name="record_button">Record</string>
+    <string name="identify_button">Identify</string>
+    <string name="add_to_library_button">Add to Library</string>
+
+    <string name="landing_description">User is given a list of choices. The user can choose the service they want to use.</string>
+    <string name="spotify_description">User is able to stream music from the Spotify API after logging in to their Spotify Account. MediaPlayer class can be used to stream the music and MediaController class can be used to control the playback.</string>
+    <string name="soundcloud_description">User is able to stream music from the SoundCloud API after logging in to their SoundCloud Account. MediaPlayer class can be used to stream the music and MediaController class can be used to control the playback.</string>
+    <string name="shazam_description">User is able to identify music using the Shazam feature in Spotify API after logging in to their Spotify Account. MediaRecorder class can be used to record the music.</string>
+</resources>
